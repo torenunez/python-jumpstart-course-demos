@@ -51,7 +51,7 @@ def fibonacci_co():
 
 print('with yield')
 for n in fibonacci_co():
-    if n > 1000:
+    if n > 10000:
         break
 
     print(n, end=', ')
